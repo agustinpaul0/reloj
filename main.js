@@ -4,7 +4,7 @@ const inicioReloj = () => {
     let min = today.getMinutes();
     let sec = today.getSeconds();
 
-    ap = (hr < 12) ? '<span>A.M</span>' : '<span>P.M</span>';
+    ap = (hr < 12) ? '<span> A.M </span>' : '<span> P.M </span>';
     hr = (hr == 0) ? hr - 12 : hr;
 
     hr = checkTime(hr);
